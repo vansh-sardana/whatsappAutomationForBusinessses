@@ -1,0 +1,22 @@
+{
+  "name": "wwebjs-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "base64-js": "^1.5.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mime": "^4.0.1",
+    "nodemon": "^3.1.0",
+    "puppeteer": "^22.6.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#webpack-exodus"
+  }
+}
